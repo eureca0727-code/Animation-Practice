@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour {
 
     private int score = 0; // 게임 점수
 
-    // 게임 시작과 동시에 싱글톤을 구성
+    // 게임 시작과 동시에 싱글톤을 구성7
     void Awake() {
         // 싱글톤 변수 instance가 비어있는가?
         if (instance == null)
